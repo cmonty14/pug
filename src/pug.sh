@@ -7,8 +7,8 @@ green="$(tput setaf 2)"
 cyan="$(tput setaf 6)"
 white="$(tput setaf 7)"
 
-PACMANFILE="$HOSTNAME-pacman-list.pkg"
-AURFILE="$HOSTNAME-aur-list.pkg"
+PACMANFILE="${HOSTNAME}-pacman-list.pkg"
+AURFILE="${HOSTNAME}-aur-list.pkg"
 
 pug_install() {
     echo "${bold}${green}==>${white} Authentification on Github..."
